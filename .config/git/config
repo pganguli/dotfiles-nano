@@ -1,0 +1,69 @@
+[user]
+	name = Prateek Ganguli
+	email = prateek.ganguli@gmail.com
+	signingkey = prateek.ganguli@gmail.com
+[core]
+	editor = nvim
+[alias]
+	ap = add --patch
+	br = branch
+	bm = branch --move --force
+	brh = "!f() { git branch --force \"$1\" HEAD; }; f"
+	co = checkout
+	cb = checkout -b
+	re = checkout --
+	discard = !echo -n 'Remove all untracked files? [y/N]: ' && read 'x' && [ $x = 'y' ] && git checkout --force && git clean -d --interactive
+	ci = commit
+	cia = commit --amend
+	di = diff
+	dl = diff HEAD~1
+	ds = diff --staged
+	lg = log --graph
+	ll = log -1 HEAD
+	lo = log --oneline
+	lp = log --patch
+	ls = ls-tree --full-tree --name-only -r HEAD
+	pu = push
+	puo = push --set-upstream origin
+	rao = remote add origin
+	rau = remote add upstream
+	rsuo = remote set-url origin
+	ri = rebase --interactive
+	sw = switch
+	sc = switch --create
+	st = status
+	sui = submodule update --init
+	sur = submodule update --recursive
+	unstage = reset HEAD --
+	ignore = !git update-index --assume-unchanged
+	unignore = !git update-index --no-assume-unchanged
+	ignored = !git ls-files -v |grep ^[a-z]
+[commit]
+	gpgsign = true
+	verbose = true
+[gpg]
+	program = gpg
+[push]
+	default = simple
+	autoSetupRemote = true
+[pull]
+	ff = only
+[diff]
+	algorithm = histogram
+[merge]
+	tool = nvimdiff2
+	conflitcstyle = zdiff3
+[mergetool]
+	keepBackup = false
+[rerere]
+	enabled = true
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[url "git@salsa.debian.org:"]
+	insteadOf = https://salsa.debian.org/
+[color]
+	ui = auto
+[init]
+	defaultBranch = master
+
+# vim:noet

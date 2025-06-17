@@ -1,0 +1,17 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-terminal" version="1.0">
+  <property name="title-initial" type="string" value=""/>
+  <property name="scrolling-on-output" type="bool" value="false"/>
+  <property name="scrolling-bar" type="string" value="TERMINAL_SCROLLBAR_NONE"/>
+  <property name="scrolling-lines" type="uint" value="65536"/>
+  <property name="misc-cursor-blinks" type="bool" value="true"/>
+  <property name="misc-cursor-shape" type="string" value="TERMINAL_CURSOR_SHAPE_BLOCK"/>
+  <property name="misc-show-unsafe-paste-dialog" type="bool" value="false"/>
+  <property name="font-use-system" type="bool" value="true"/>
+  <property name="misc-borders-default" type="bool" value="true"/>
+  <property name="misc-menubar-default" type="bool" value="false"/>
+  <property name="misc-tab-close-middle-click" type="bool" value="false"/>
+  <property name="misc-hyperlinks-enabled" type="bool" value="false"/>
+  <property name="scrolling-unlimited" type="bool" value="false"/>
+</channel>
