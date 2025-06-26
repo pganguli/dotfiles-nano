@@ -47,6 +47,7 @@ fi
 # Other PATH variables
 export GOPATH="$HOME/.go"
 export CARGOPATH="$HOME/.cargo"
+export JULIAUPPATH="$HOME/.juliaup"
 export KEEPASS_DB="$HOME/Documents/Passwords.kdbx"
 
 # generic $PATH handling
@@ -55,8 +56,9 @@ if (( EUID != 0 )); then
     "${path[@]}"
     $HOME/bin
     $HOME/.local/bin
-    $CARGOPATH/bin
     $GOPATH/bin
+    $CARGOPATH/bin
+    $JULIAUPPATH/bin
     /opt/uppaal-5.0.0/bin
     /opt/uppaal-5.0.0/lib/app/bin
     /usr/local/bin

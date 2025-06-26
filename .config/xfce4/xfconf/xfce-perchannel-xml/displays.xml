@@ -3,68 +3,8 @@
 <channel name="displays" version="1.0">
   <property name="ActiveProfile" type="string" value="Default"/>
   <property name="Notify" type="int" value="1"/>
-  <property name="AutoEnableProfiles" type="int" value="0"/>
+  <property name="AutoEnableProfiles" type="int" value="3"/>
   <property name="IdentityPopups" type="bool" value="true"/>
-  <property name="8fbf59db-a05f-4a6d-bb43-b544e466f99f" type="string" value="dell-lat">
-    <property name="eDP-1" type="string" value="Laptop">
-      <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="0af802084ef475031e96364903929875ad6fab11"/>
-      <property name="Resolution" type="string" value="2160x1350"/>
-      <property name="RefreshRate" type="double" value="59.743739188042753"/>
-      <property name="Rotation" type="int" value="0"/>
-      <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="true"/>
-      <property name="Scale" type="double" value="1"/>
-      <property name="Position" type="empty">
-        <property name="X" type="int" value="0"/>
-        <property name="Y" type="int" value="1234"/>
-      </property>
-    </property>
-    <property name="DP-3-2" type="string" value="Dell Inc. 27&quot;">
-      <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="fd77d9ef1cb4fc9f70dc9f1fe35dfa39ec47d40a"/>
-      <property name="Resolution" type="string" value="3840x2160"/>
-      <property name="RefreshRate" type="double" value="59.996624662466246"/>
-      <property name="Rotation" type="int" value="0"/>
-      <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="false"/>
-      <property name="Scale" type="double" value="0.5714263916015625"/>
-      <property name="Position" type="empty">
-        <property name="X" type="int" value="0"/>
-        <property name="Y" type="int" value="0"/>
-      </property>
-    </property>
-  </property>
-  <property name="dec73d4e-1e8a-4f10-af4c-f6395dbb053d" type="string" value="dell-lon">
-    <property name="eDP-1" type="string" value="Laptop">
-      <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="0af802084ef475031e96364903929875ad6fab11"/>
-      <property name="Resolution" type="string" value="2160x1350"/>
-      <property name="RefreshRate" type="double" value="59.743739188042753"/>
-      <property name="Rotation" type="int" value="0"/>
-      <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="true"/>
-      <property name="Scale" type="double" value="1"/>
-      <property name="Position" type="empty">
-        <property name="X" type="int" value="0"/>
-        <property name="Y" type="int" value="437"/>
-      </property>
-    </property>
-    <property name="DP-3" type="string" value="Dell Inc. 27&quot;">
-      <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="ea69f3f00ddb5c132197c62b42962b66553109e9"/>
-      <property name="Resolution" type="string" value="3840x2160"/>
-      <property name="RefreshRate" type="double" value="59.996624662466246"/>
-      <property name="Rotation" type="int" value="270"/>
-      <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="false"/>
-      <property name="Scale" type="double" value="0.5714263916015625"/>
-      <property name="Position" type="empty">
-        <property name="X" type="int" value="2160"/>
-        <property name="Y" type="int" value="0"/>
-      </property>
-    </property>
-  </property>
   <property name="efee00d2-9c49-495d-9b54-ac7d93523da4" type="empty">
     <property name="eDP-1" type="string" value="Laptop">
       <property name="Active" type="bool" value="false"/>
@@ -99,60 +39,26 @@
       </property>
     </property>
   </property>
-  <property name="9d2a6770-f480-4e9a-94dd-b2e58b967e50" type="string" value="dell-lat-lon">
-    <property name="eDP-1" type="string" value="Laptop">
-      <property name="Active" type="bool" value="false"/>
-      <property name="EDID" type="string" value="0af802084ef475031e96364903929875ad6fab11"/>
-    </property>
-    <property name="DP-3" type="string" value="Dell Inc. 27&quot;">
-      <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="ea69f3f00ddb5c132197c62b42962b66553109e9"/>
-      <property name="Resolution" type="string" value="3840x2160"/>
-      <property name="RefreshRate" type="double" value="59.996624662466246"/>
-      <property name="Rotation" type="int" value="270"/>
-      <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="false"/>
-      <property name="Scale" type="double" value="0.666656494140625"/>
-      <property name="Position" type="empty">
-        <property name="X" type="int" value="2560"/>
-        <property name="Y" type="int" value="0"/>
-      </property>
-    </property>
-    <property name="DP-4-2" type="string" value="Dell Inc. 27&quot;">
-      <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="fd77d9ef1cb4fc9f70dc9f1fe35dfa39ec47d40a"/>
-      <property name="Resolution" type="string" value="3840x2160"/>
-      <property name="RefreshRate" type="double" value="59.996624662466246"/>
-      <property name="Rotation" type="int" value="0"/>
-      <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="true"/>
-      <property name="Scale" type="double" value="0.666656494140625"/>
-      <property name="Position" type="empty">
-        <property name="X" type="int" value="0"/>
-        <property name="Y" type="int" value="546"/>
-      </property>
-    </property>
-  </property>
   <property name="Default" type="empty">
     <property name="eDP-1" type="string" value="Laptop">
       <property name="Active" type="bool" value="false"/>
       <property name="EDID" type="string" value="0af802084ef475031e96364903929875ad6fab11"/>
     </property>
-    <property name="DP-3" type="string" value="Dell Inc. 27&quot;">
+    <property name="DP-4" type="string" value="Dell Inc. 27&quot;">
       <property name="Active" type="bool" value="true"/>
       <property name="EDID" type="string" value="ea69f3f00ddb5c132197c62b42962b66553109e9"/>
       <property name="Resolution" type="string" value="3840x2160"/>
-      <property name="RefreshRate" type="double" value="30"/>
+      <property name="RefreshRate" type="double" value="59.996624662466246"/>
       <property name="Rotation" type="int" value="270"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
-      <property name="Scale" type="double" value="0.666656494140625"/>
+      <property name="Scale" type="double" value="0.79998779296875"/>
       <property name="Position" type="empty">
-        <property name="X" type="int" value="2560"/>
+        <property name="X" type="int" value="3072"/>
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
-    <property name="DP-4-2" type="string" value="Dell Inc. 27&quot;">
+    <property name="DP-3-2" type="string" value="Dell Inc. 27&quot;">
       <property name="Active" type="bool" value="true"/>
       <property name="EDID" type="string" value="fd77d9ef1cb4fc9f70dc9f1fe35dfa39ec47d40a"/>
       <property name="Resolution" type="string" value="3840x2160"/>
@@ -160,10 +66,44 @@
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="true"/>
-      <property name="Scale" type="double" value="0.666656494140625"/>
+      <property name="Scale" type="double" value="0.79998779296875"/>
       <property name="Position" type="empty">
         <property name="X" type="int" value="0"/>
-        <property name="Y" type="int" value="565"/>
+        <property name="Y" type="int" value="701"/>
+      </property>
+    </property>
+  </property>
+  <property name="e91c25ce-1670-49ca-b336-7c4b4c35fd9a" type="string" value="dax-lat-lon">
+    <property name="eDP-1" type="string" value="Laptop">
+      <property name="Active" type="bool" value="false"/>
+      <property name="EDID" type="string" value="0af802084ef475031e96364903929875ad6fab11"/>
+    </property>
+    <property name="DP-4" type="string" value="Dell Inc. 27&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="ea69f3f00ddb5c132197c62b42962b66553109e9"/>
+      <property name="Resolution" type="string" value="3840x2160"/>
+      <property name="RefreshRate" type="double" value="59.996624662466246"/>
+      <property name="Rotation" type="int" value="270"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="double" value="0.79998779296875"/>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="3072"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="DP-3-2" type="string" value="Dell Inc. 27&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="fd77d9ef1cb4fc9f70dc9f1fe35dfa39ec47d40a"/>
+      <property name="Resolution" type="string" value="3840x2160"/>
+      <property name="RefreshRate" type="double" value="30"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="true"/>
+      <property name="Scale" type="double" value="0.79998779296875"/>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="701"/>
       </property>
     </property>
   </property>
