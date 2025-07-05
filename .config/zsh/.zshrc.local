@@ -124,10 +124,6 @@ gpg-connect-agent updatestartuptty /bye >/dev/null
 # alert me if something failed
 setopt printexitvalue
 
-# if a new command line being added to the history list duplicates an older
-# one, the older command is removed from the list
-is4 && setopt histignorealldups
-
 ## aliases ##
 
 alias vi=nvim
