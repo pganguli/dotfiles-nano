@@ -44,6 +44,8 @@ if [[ -r /etc/gentoo-release ]] ; then
     [[ -r /etc/profile.env ]] && source /etc/profile.env
 fi
 
+source "$HOME/.cargo/env"
+
 # Other PATH variables
 export GOPATH="$HOME/.go"
 export CARGOPATH="$HOME/.cargo"

@@ -36,6 +36,11 @@ bindsym $mod+Shift+q kill
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 bindsym $mod+d exec --no-startup-id xfce4-appfinder
 
+# screenshot related shenanigans
+bindsym Print exec --no-startup-id xfce4-screenshooter --fullscreen --save "$(xdg-user-dir PICTURES)/$(date +%Y%m%d-%H%M%S).png"
+bindsym Control+Print exec --no-startup-id xfce4-screenshooter --region --save "$(xdg-user-dir PICTURES)/$(date +%Y%m%d-%H%M%S).png"
+bindsym $mod+Print exec --no-startup-id ssocr
+
 # change focus
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
