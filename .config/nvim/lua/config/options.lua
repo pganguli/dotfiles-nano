@@ -2,10 +2,12 @@
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
 
+vim.g.snacks_animate = false -- Disable all animations
 vim.g.autoformat = false -- Do not autoformat files
 vim.opt.autochdir = true -- Always cd to path of current file
 vim.opt.background = "light" -- Switch to light background
 vim.opt.cmdheight = 0 -- Hide command-line unless it is being used
+vim.opt.clipboard = "unnamed,unnamedplus" -- Use PRIMARY and CLIPBOARD selections under X11
 vim.opt.incsearch = true -- highlight matches as you type
 vim.opt.linespace = -1 -- Reduce space between lines in GUI by 1px
 vim.opt.listchars = { -- Strings to show in 'list' mode
