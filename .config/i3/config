@@ -36,10 +36,17 @@ bindsym $mod+Shift+q kill
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 bindsym $mod+d exec --no-startup-id xfce4-appfinder
 
+# lock screen
+bindsym $mod+Shift+Escape exec --no-startup-id loginctl lock-session "${XDG_SESSION_ID-}"
+
 # screenshot related shenanigans
 bindsym Print exec --no-startup-id xfce4-screenshooter --fullscreen --save "$(xdg-user-dir PICTURES)/$(date +%Y%m%d-%H%M%S).png"
 bindsym Control+Print exec --no-startup-id xfce4-screenshooter --region --save "$(xdg-user-dir PICTURES)/$(date +%Y%m%d-%H%M%S).png"
 bindsym $mod+Print exec --no-startup-id ssocr
+
+
+# paste clipboard contents as if it were typed
+bindsym $mod+Shift+v exec --no-startup-id sleep 0.5s && xdotool type --delay 25 "$(xsel --output --clipboard)"
 
 # change focus
 bindsym $mod+Left focus left
