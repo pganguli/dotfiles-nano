@@ -1,12 +1,6 @@
-app=feh
+app=none
 custom_action_command=none
 last_user=
 last_extension=png
 show_in_folder=false
-screenshot_dir=file:///home/pgan/Pictures
-action=4
-delay=0
-region=1
-show_mouse=0
-show_border=0
 

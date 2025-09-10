@@ -6,9 +6,9 @@
   <property name="AutoEnableProfiles" type="int" value="3"/>
   <property name="IdentityPopups" type="bool" value="true"/>
   <property name="efee00d2-9c49-495d-9b54-ac7d93523da4" type="empty">
-    <property name="eDP-1" type="string" value="Laptop">
+    <property name="eDP" type="string" value="Laptop">
       <property name="Active" type="bool" value="false"/>
-      <property name="EDID" type="string" value="0af802084ef475031e96364903929875ad6fab11"/>
+      <property name="EDID" type="string" value="13c7ca46059da423bd4b648554073722efcee642"/>
     </property>
     <property name="DP-3" type="string" value="Dell Inc. 27&quot;">
       <property name="Active" type="bool" value="true"/>
@@ -40,9 +40,9 @@
     </property>
   </property>
   <property name="e91c25ce-1670-49ca-b336-7c4b4c35fd9a" type="empty">
-    <property name="eDP-1" type="string" value="Laptop">
+    <property name="eDP" type="string" value="Laptop">
       <property name="Active" type="bool" value="false"/>
-      <property name="EDID" type="string" value="0af802084ef475031e96364903929875ad6fab11"/>
+      <property name="EDID" type="string" value="13c7ca46059da423bd4b648554073722efcee642"/>
     </property>
     <property name="DP-3" type="string" value="Dell Inc. 27&quot;">
       <property name="Active" type="bool" value="true"/>
@@ -74,9 +74,9 @@
     </property>
   </property>
   <property name="5bb7e999-32b3-4ce1-83cd-a3526a385d7f" type="string" value="dax-lat-lon">
-    <property name="eDP-1" type="string" value="Laptop">
+    <property name="eDP" type="string" value="Laptop">
       <property name="Active" type="bool" value="false"/>
-      <property name="EDID" type="string" value="0af802084ef475031e96364903929875ad6fab11"/>
+      <property name="EDID" type="string" value="13c7ca46059da423bd4b648554073722efcee642"/>
     </property>
     <property name="DP-4" type="string" value="Dell Inc. 27&quot;">
       <property name="Active" type="bool" value="true"/>
@@ -108,18 +108,14 @@
     </property>
   </property>
   <property name="Default" type="empty">
-    <property name="eDP-1" type="string" value="Laptop">
-      <property name="Active" type="bool" value="false"/>
-      <property name="EDID" type="string" value="0af802084ef475031e96364903929875ad6fab11"/>
-    </property>
-    <property name="DP-3" type="string" value="In Focus Systems Inc ">
+    <property name="eDP" type="string" value="Laptop">
       <property name="Active" type="bool" value="true"/>
-      <property name="EDID" type="string" value="f93d19d1bdd2d639ec2dc55f9498e8fc4eb0cf9e"/>
-      <property name="Resolution" type="string" value="1920x1080"/>
-      <property name="RefreshRate" type="double" value="60"/>
+      <property name="EDID" type="string" value="13c7ca46059da423bd4b648554073722efcee642"/>
+      <property name="Resolution" type="string" value="2880x1920"/>
+      <property name="RefreshRate" type="double" value="60.000581635818428"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="true"/>
+      <property name="Primary" type="bool" value="false"/>
       <property name="Scale" type="double" value="1"/>
       <property name="Position" type="empty">
         <property name="X" type="int" value="0"/>
