@@ -23,6 +23,7 @@
         <value type="int" value="7"/>
         <value type="int" value="5"/>
         <value type="int" value="1"/>
+        <value type="int" value="8"/>
         <value type="int" value="10"/>
       </property>
       <property name="background-style" type="uint" value="1"/>
@@ -148,5 +149,6 @@
       <property name="show-generic-names" type="bool" value="false"/>
       <property name="custom-menu" type="bool" value="false"/>
     </property>
+    <property name="plugin-8" type="string" value="notification-plugin"/>
   </property>
 </channel>
