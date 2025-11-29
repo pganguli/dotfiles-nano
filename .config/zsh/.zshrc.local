@@ -123,9 +123,6 @@ fi
 export GPG_TTY=$(tty)
 gpg-connect-agent updatestartuptty /bye >/dev/null
 
-# Manual fixed scaling factor
-export QT_SCALE_FACTOR=2
-
 # alert me if something failed
 setopt printexitvalue
 

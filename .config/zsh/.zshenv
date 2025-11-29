@@ -48,20 +48,14 @@ if [[ -r "$HOME/.cargo/env" ]] ; then
     source "$HOME/.cargo/env"
 fi
 
-# Other PATH variables
-export GOPATH="$HOME/.go"
-export CARGOPATH="$HOME/.cargo"
-export JULIAUPPATH="$HOME/.juliaup"
-export KEEPASS_DB="$HOME/Documents/Passwords.kdbx"
-
 # generic $PATH handling
 if (( EUID != 0 )); then
   path=(
     "${path[@]}"
     $HOME/bin
     $HOME/.local/bin
-    $GOPATH/bin
     $CARGOPATH/bin
+    $GOPATH/bin
     $JULIAUPPATH/bin
     /opt/uppaal-5.0.0/bin
     /opt/uppaal-5.0.0/lib/app/bin
@@ -104,8 +98,6 @@ elif [[ -x /usr/bin/lesspipe.sh ]] ; then
 fi
 unset lp
 
-# use NeoVim as man pager
-export MANPAGER="nvim -c Man!"
 
 # Use a default width of 80 for manpages for more convenient reading
 export MANWIDTH=${MANWIDTH:-80}
@@ -117,10 +109,6 @@ export DISTCC_HOSTS="+zeroconf"
 
 # MAKEDEV should be usable on udev as well by default:
 export WRITE_ON_UDEV=yes
-
-# use NeoVim as default editor
-export EDITOR=nvim
-export VISUAL=nvim-qt
 
 ## END OF FILE #################################################################
 # vim:filetype=zsh foldmethod=marker autoindent expandtab shiftwidth=4

@@ -129,8 +129,8 @@
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="volume-step" type="uint" value="2"/>
       <property name="enable-wnck" type="bool" value="false"/>
-      <property name="enable-multimedia-keys" type="bool" value="false"/>
-      <property name="enable-mpris" type="bool" value="false"/>
+      <property name="enable-multimedia-keys" type="bool" value="true"/>
+      <property name="enable-mpris" type="bool" value="true"/>
       <property name="volume-max" type="uint" value="200"/>
       <property name="rec-indicator-persistent" type="bool" value="true"/>
       <property name="known-players" type="string" value="Chromium;chromium.instance54599;org.mozilla.firefox"/>
