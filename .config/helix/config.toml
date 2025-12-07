@@ -1,0 +1,16 @@
+theme = "emacs"
+
+[editor]
+default-yank-register = "+"
+
+[editor.indent-guides]
+render = true
+
+[keys.normal]
+Z = { Z = ":write-buffer-close!", Q = ":quit!" }
+C-s = ":write"
+C-c = "normal_mode"
+space = { f = ":format", x = ":toggle whitespace.render all none" }
+
+[keys.insert]
+S-tab = [":insert-output echo -ne '\t'"]
