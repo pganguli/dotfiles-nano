@@ -1,0 +1,10 @@
+[Unit]
+Description=Mute default sink before going into suspend
+Before=suspend.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/pactl set-sink-mute @DEFAULT_SINK@ 1
+
+[Install]
+WantedBy=suspend.target
