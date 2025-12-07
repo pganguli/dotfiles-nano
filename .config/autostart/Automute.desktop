@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.9.4
+Type=Application
+Name=Automute
+Comment=Mute audio before suspend
+Exec=/usr/bin/pactl set-sink-mute @DEFAULT_SINK@ 1
+OnlyShowIn=XFCE;
+RunHook=4
+StartupNotify=false
+Terminal=false
+Hidden=false
+
