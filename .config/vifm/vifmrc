@@ -10,9 +10,7 @@
 " ------------------------------------------------------------------------------
 
 " Command used to edit files in various contexts.
-if executable($VISUAL)
-    let &vicmd = $VISUAL
-elseif executable($EDITOR)
+if executable($EDITOR)
     let &vicmd = $EDITOR
 else
     set vicmd=vi
