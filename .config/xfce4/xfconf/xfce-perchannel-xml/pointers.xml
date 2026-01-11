@@ -35,14 +35,14 @@
     <property name="Threshold" type="int" value="4"/>
     <property name="Acceleration" type="double" value="2"/>
   </property>
-  <property name="PixArt_Lenovo_USB_Optical_Mouse" type="empty">
+  <property name="Logitech_Advanced_Corded_Mouse_M500s" type="empty">
     <property name="Properties" type="empty">
+      <property name="libinput_High_Resolution_Wheel_Scroll_Enabled" type="int" value="1"/>
       <property name="libinput_Accel_Profile_Enabled" type="array">
         <value type="int" value="1"/>
         <value type="int" value="0"/>
         <value type="int" value="0"/>
       </property>
-      <property name="libinput_High_Resolution_Wheel_Scroll_Enabled" type="int" value="1"/>
       <property name="libinput_Scroll_Method_Enabled" type="array">
         <value type="int" value="0"/>
         <value type="int" value="0"/>
@@ -51,6 +51,11 @@
     </property>
     <property name="RightHanded" type="bool" value="true"/>
     <property name="Threshold" type="int" value="1"/>
+    <property name="Acceleration" type="double" value="9"/>
+  </property>
+  <property name="Logitech_Advanced_Corded_Mouse_M500s_Keyboard" type="empty">
+    <property name="RightHanded" type="bool" value="true"/>
+    <property name="Threshold" type="int" value="4"/>
     <property name="Acceleration" type="double" value="9"/>
   </property>
 </channel>

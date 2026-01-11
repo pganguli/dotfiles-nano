@@ -5,47 +5,53 @@
   <property name="Notify" type="int" value="1"/>
   <property name="AutoEnableProfiles" type="int" value="3"/>
   <property name="IdentityPopups" type="bool" value="true"/>
-  <property name="5bb7e999-32b3-4ce1-83cd-a3526a385d7f" type="string" value="dax-lat-lon">
+  <property name="c257a45c-a8b9-4d8a-bc12-9dcbc97e2413" type="string" value="dax">
     <property name="eDP" type="string" value="Laptop">
       <property name="Active" type="bool" value="false"/>
       <property name="EDID" type="string" value="13c7ca46059da423bd4b648554073722efcee642"/>
     </property>
-    <property name="DP-4" type="string" value="Dell Inc. 27&quot;">
+    <property name="DisplayPort-4" type="string" value="Dell Inc. 27&quot;">
       <property name="Active" type="bool" value="true"/>
       <property name="EDID" type="string" value="fd77d9ef1cb4fc9f70dc9f1fe35dfa39ec47d40a"/>
       <property name="Resolution" type="string" value="3840x2160"/>
       <property name="RefreshRate" type="double" value="59.996624662466246"/>
+      <property name="ModeFlags" type="uint64" value="9"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
-      <property name="Primary" type="bool" value="true"/>
-      <property name="Scale" type="double" value="0.79998779296875"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Scale" type="double" value="1"/>
       <property name="Position" type="empty">
         <property name="X" type="int" value="0"/>
-        <property name="Y" type="int" value="705"/>
+        <property name="Y" type="int" value="808"/>
       </property>
     </property>
-    <property name="DP-3-2" type="string" value="Dell Inc. 27&quot;">
+    <property name="DisplayPort-9" type="string" value="Dell Inc. 27&quot;">
       <property name="Active" type="bool" value="true"/>
       <property name="EDID" type="string" value="ea69f3f00ddb5c132197c62b42962b66553109e9"/>
       <property name="Resolution" type="string" value="3840x2160"/>
-      <property name="RefreshRate" type="double" value="30"/>
+      <property name="RefreshRate" type="double" value="59.996624662466246"/>
+      <property name="ModeFlags" type="uint64" value="9"/>
       <property name="Rotation" type="int" value="270"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
-      <property name="Scale" type="double" value="0.79998779296875"/>
+      <property name="Scale" type="double" value="1"/>
       <property name="Position" type="empty">
-        <property name="X" type="int" value="3072"/>
+        <property name="X" type="int" value="3840"/>
         <property name="Y" type="int" value="0"/>
       </property>
     </property>
   </property>
   <property name="Default" type="empty">
     <property name="eDP" type="string" value="Laptop">
-      <property name="Active" type="bool" value="true"/>
+      <property name="Active" type="bool" value="false"/>
       <property name="EDID" type="string" value="13c7ca46059da423bd4b648554073722efcee642"/>
-      <property name="Resolution" type="string" value="2880x1920"/>
-      <property name="RefreshRate" type="double" value="120.00003231310103"/>
-      <property name="ModeFlags" type="uint64" value="10"/>
+    </property>
+    <property name="DisplayPort-7" type="string" value="Dell Inc. 27&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="fd77d9ef1cb4fc9f70dc9f1fe35dfa39ec47d40a"/>
+      <property name="Resolution" type="string" value="3840x2160"/>
+      <property name="RefreshRate" type="double" value="59.996624662466246"/>
+      <property name="ModeFlags" type="uint64" value="9"/>
       <property name="Rotation" type="int" value="0"/>
       <property name="Reflection" type="string" value="0"/>
       <property name="Primary" type="bool" value="false"/>
@@ -54,6 +60,10 @@
         <property name="X" type="int" value="0"/>
         <property name="Y" type="int" value="0"/>
       </property>
+    </property>
+    <property name="DisplayPort-11" type="string" value="Dell Inc. 27&quot;">
+      <property name="Active" type="bool" value="false"/>
+      <property name="EDID" type="string" value="ea69f3f00ddb5c132197c62b42962b66553109e9"/>
     </property>
   </property>
 </channel>

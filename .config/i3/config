@@ -21,9 +21,6 @@ tiling_drag modifier titlebar
 # default workspace layout
 workspace_layout tabbed
 
-# start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
-
 # kill focused window
 bindsym $mod+Shift+q kill
 
@@ -34,19 +31,18 @@ bindsym $mod+Shift+q kill
 # There also is i3-dmenu-desktop which only displays applications shipping a
 # .desktop file. It is a wrapper around dmenu, so you need that installed.
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
-bindsym $mod+d exec --no-startup-id xfce4-appfinder
 
-# lock screen
-bindsym $mod+Shift+Escape exec --no-startup-id loginctl lock-session "${XDG_SESSION_ID-}"
-
-# screenshot related shenanigans
+# Print Screen
 bindsym Print exec --no-startup-id xfce4-screenshooter --fullscreen --save "$(xdg-user-dir PICTURES)/$(date +%Y%m%d-%H%M%S).png"
-bindsym Control+Print exec --no-startup-id xfce4-screenshooter --region --save "$(xdg-user-dir PICTURES)/$(date +%Y%m%d-%H%M%S).png"
-bindsym $mod+Print exec --no-startup-id ssocr
-
+bindsym Shift+Print exec --no-startup-id xfce4-screenshooter --region --save "$(xdg-user-dir PICTURES)/$(date +%Y%m%d-%H%M%S).png"
+bindsym Ctrl+Print exec --no-startup-id "sh -c \
+  'xfce4-screenshooter --region --open cat | \
+   tesseract stdin stdout -l eng --psm 6 txt quiet | \
+   iconv --from-code=UTF-8 --to-code=ASCII//TRANSLIT -c --silent | \
+   xclip -selection clipboard -rmlastnl'"
 
 # paste clipboard contents as if it were typed
-bindsym $mod+Shift+v exec --no-startup-id sleep 0.5s && xdotool type --delay 25 "$(xsel --output --clipboard)"
+#bindsym $mod+Shift+v exec --no-startup-id sleep 0.5s && xdotool type --delay 25 "$(xsel --output --clipboard)"
 
 # change focus
 bindsym $mod+Left focus left
