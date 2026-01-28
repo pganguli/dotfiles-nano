@@ -7,11 +7,11 @@
   <property name="last-window-maximized" type="bool" value="true"/>
   <property name="last-show-hidden" type="bool" value="false"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
-  <property name="last-details-view-column-widths" type="string" value="50,50,134,50,50,97,50,50,928,50,50,77,50,148"/>
+  <property name="last-details-view-column-widths" type="string" value="50,50,133,127,50,97,50,50,316,50,50,80,50,148"/>
   <property name="last-window-width" type="int" value="640"/>
   <property name="last-window-height" type="int" value="480"/>
   <property name="misc-single-click" type="bool" value="false"/>
-  <property name="last-sort-column" type="string" value="THUNAR_COLUMN_NAME"/>
+  <property name="last-sort-column" type="string" value="THUNAR_COLUMN_DATE_MODIFIED"/>
   <property name="last-sort-order" type="string" value="GTK_SORT_ASCENDING"/>
   <property name="misc-thumbnail-max-file-size" type="uint64" value="10485760"/>
   <property name="misc-text-beside-icons" type="bool" value="false"/>
@@ -27,7 +27,10 @@
   <property name="last-focused-tab-left" type="int" value="0"/>
   <property name="last-focused-tab-right" type="int" value="0"/>
   <property name="last-tabs-left" type="array">
-    <value type="string" value="file:///home/pganguli"/>
+    <value type="string" value="file:///home/pganguli/Documents/photos/Prateek_Photos/OLYMPUS/100OMSYS"/>
   </property>
   <property name="misc-confirm-close-multiple-tabs" type="bool" value="false"/>
+  <property name="last-tabs-right" type="array">
+    <value type="string" value="file:///home/pganguli"/>
+  </property>
 </channel>
