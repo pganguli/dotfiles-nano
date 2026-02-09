@@ -24,7 +24,6 @@ vim.opt.spelllang = "en_us" -- Set language for spellcheck
 vim.opt.statusline = '%<%f %m%r%=%S [%{&fileencoding} %{&fileformat} %{&filetype}] %02B  %#FoldColumn#%-9.(%l:%v%) %P %L%*'
 vim.opt.title = true -- Set window title to filename
 vim.opt.wrap = false -- Do not wrap long lines
-vim.opt.lazyredraw = true -- Do not re-draw screen while executing commands
 vim.opt.textwidth = 80 -- Set default textwidth to 80 characters
 
 --

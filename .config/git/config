@@ -50,6 +50,8 @@
 [diff]
 	algorithm = histogram
 [merge]
+	ff = no
+	commit = no
 	tool = nvimdiff2
 	conflitcstyle = zdiff3
 [mergetool]
