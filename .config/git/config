@@ -6,37 +6,38 @@
 	editor = nvim
 [alias]
 	ap = add --patch
-	br = branch
 	bm = branch --move --force
+	br = branch
 	brh = "!f() { git branch --force \"$1\" HEAD; }; f"
-	co = checkout
 	cb = checkout -b
-	re = checkout --
-	discard = !echo -n 'Remove all untracked files? [y/N]: ' && read 'x' && [ $x = 'y' ] && git checkout --force && git clean -d --interactive
 	ci = commit
 	cia = commit --amend
+	co = checkout
 	di = diff
+	discard = !echo -n 'Remove all untracked files? [y/N]: ' && read 'x' && [ $x = 'y' ] && git checkout --force && git clean -d --interactive
 	dl = diff HEAD~1
 	ds = diff --staged
+	ignore = !git update-index --assume-unchanged
+	ignored = !git ls-files -v |grep ^[a-z]
 	lg = log --graph
 	ll = log -1 HEAD
 	lo = log --oneline
 	lp = log --patch
 	ls = ls-tree --full-tree --name-only -r HEAD
+  mxt = merge -X theirs
 	pu = push
 	puo = push --set-upstream origin
 	rao = remote add origin
 	rau = remote add upstream
-	rsuo = remote set-url origin
+	re = checkout --
 	ri = rebase --interactive
-	sw = switch
+	rsuo = remote set-url origin
 	sc = switch --create
 	st = status
 	subu = submodule update --init --recursive
-	unstage = reset HEAD --
-	ignore = !git update-index --assume-unchanged
+	sw = switch
 	unignore = !git update-index --no-assume-unchanged
-	ignored = !git ls-files -v |grep ^[a-z]
+	unstage = reset HEAD --
 [commit]
 	gpgsign = true
 	verbose = true
@@ -68,3 +69,8 @@
 	defaultBranch = master
 
 # vim:noet
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
